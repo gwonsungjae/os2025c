@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	"match"
+	"math"
+	"strings"
 )
 
 func main() {
-	fmt.Println(match.Floor(2.21))
-	fmt.Println(match.Floor(2.21))
-	fmt.Println(match.Floor(2.21))
+	fmt.Println(math.Round(2.21))
+	fmt.Println(math.Ceil(2.21))
+	fmt.Println(strings.Title("go developer!"))
 }
