@@ -3,16 +3,22 @@ package main
 import (
 	"bufio"
 	"fmt"
+	"log"
 	"os"
 )
 
 func main() {
 
 	r := bufio.NewReader(os.Stdin)
-	i, _ := r.ReadString('\n')
+	//i, _ := r.ReadString('\n') /// ignore error
+	i, err := r.ReadString('\n')
+	if err != nil {
+		log.Fatal(err)
+	}
 	fmt.Println(i)
 
 	//var now time.Time = time.Now()
+
 	//var month time.Month = now.Month() // month := now.Month()
 	//var day int = now.Day()
 	//fmt.Println(month, day)
