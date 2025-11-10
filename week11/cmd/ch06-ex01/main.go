@@ -13,7 +13,9 @@ func main() {
 
 	subSlice := sub[:3]
 	//sub[0] = "Java"
-	subSlice[0] = "Database"
+	//subSlice[0] = "Database"
+	subSlice = append(subSlice, "Go")
+	//subSlice = append(subSlice, "Go","DB")
 	for _, subject := range sub {
 		fmt.Println(subject)
 	}
