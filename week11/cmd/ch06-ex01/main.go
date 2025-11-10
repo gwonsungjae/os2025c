@@ -6,9 +6,10 @@ import "fmt"
 func main() {
 	//var sub []string
 	//sub = make([]string, 3)
-	sub := make([]string, 3)
-	sub[0] = "Go"
-	sub[2] = "Python"
+	//sub := make([]string, 3)
+	sub := []string{"Go", "", "Python"}
+	//sub[0] = "Go"
+	//sub[2] = "Python"
 
 	for _, subject := range sub {
 		fmt.Println(subject)
