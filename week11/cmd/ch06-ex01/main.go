@@ -4,8 +4,9 @@ package main
 import "fmt"
 
 func main() {
-	var sub []string
-	sub = make([]string, 3)
+	//var sub []string
+	//sub = make([]string, 3)
+	sub := make([]string, 3)
 	sub[0] = "Go"
 	sub[2] = "Python"
 
