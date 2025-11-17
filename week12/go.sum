@@ -1,2 +1,4 @@
 github.com/headfirstgo/datafile v0.0.0-20190307063009-c40c587e7269 h1:c2qtZSYiBgLXZ4LGXCW0JxRb611oiks+ZFaNUA8J8gw=
 github.com/headfirstgo/datafile v0.0.0-20190307063009-c40c587e7269/go.mod h1:7VyRGcmFIiTsEPOobZkJpgOGYYYUw4QaP+81tb48q9M=
+github.com/headfirstgo/magazine v0.0.0-20190307065844-6ebbd55da74e h1:TGsu++q0Yvx3mE4YK/VYo+D8oDXT2nrSBVB4jotfr0g=
+github.com/headfirstgo/magazine v0.0.0-20190307065844-6ebbd55da74e/go.mod h1:OTGcyBMfcYf2vdAZMgyEBCxen47oDKd3x05KWrBTtFA=
