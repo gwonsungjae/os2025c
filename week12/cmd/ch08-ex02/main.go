@@ -16,4 +16,8 @@ func main() {
 	s1.Address.City = "Seoul"
 	fmt.Println(s1.Name, s1.Address.City)
 	fmt.Println(e1.Name, e1.Salary)
+
+	//carFuel = Gallons(Liter(40.0)*0.264)
+	//busFuel = Liters(Gallons(63.0)*3.785)
+
 }
